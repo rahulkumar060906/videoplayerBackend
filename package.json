@@ -1,0 +1,28 @@
+{
+  "name": "videoplayer",
+  "version": "1.0.0",
+  "description": "A backend for the youtube like video player app ",
+  "keywords": [
+    "Javascript",
+    "backend",
+    "youtube",
+    "video",
+    "player"
+  ],
+  "license": "ISC",
+  "author": "Rahul Kumar",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9",
+    "prettier": "^3.5.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.12.2"
+  }
+}
